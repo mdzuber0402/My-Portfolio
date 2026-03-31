@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Zuber | Data Scientist Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Md Zuber, Data-driven MSc in Statistics graduate specializing in Machine Learning and Data Science.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 3D Canvas Background -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo"> Md Zuber<span>.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content animate-on-scroll">
+                <div class="glow-box">
+                    <span class="badge"><i class="fas fa-bolt"></i> Open to Work</span>
+                </div>
+                <h1>Hi, I'm <span class="gradient-text">Md Zuber</span></h1>
+                <h2>Data Scientist &amp; Statistician</h2>
+                <p>MSc in Statistics graduate driven by data, specialized in translating complex datasets into
+                    actionable strategic insights through advanced predictive modeling and machine learning.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <h3 class="section-title animate-on-scroll">About Me</h3>
+                <div class="about-content animate-on-scroll">
+                    <!-- 3D Tilt Card -->
+                    <div class="glass-card full-width tilt-card" data-tilt data-tilt-glare data-tilt-max-glare="0.2">
+                        <div class="about-grid">
+                            <div class="about-quote">
+                                <i class="fas fa-quote-left quote-icon"></i>
+                                <p class="objective-text">Data-driven MSc in Statistics graduate with a solid foundation
+                                    in Statistics, Machine Learning, Python, SQL, and Power BI. Experienced in building
+                                    data science projects that involve data cleaning, exploratory analysis, feature
+                                    engineering, and predictive modeling and converting complex data into strategic
+                                    insights to guide decision-making.</p>
+                            </div>
+                            <div class="quick-info-modern">
+                                <a href="mailto:myselfzuberinamdar@gmail.com" class="info-pill">
+                                    <div class="pill-icon"><i class="fas fa-envelope"></i></div>
+                                    <span>myselfzuberinamdar@gmail.com</span>
+                                </a>
+                                <a href="tel:+919019339083" class="info-pill">
+                                    <div class="pill-icon"><i class="fas fa-phone"></i></div>
+                                    <span>+91 9019339083</span>
+                                </a>
+                                <div class="info-pill">
+                                    <div class="pill-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                    <span>Bangalore, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding">
+            <div class="container">
+                <h3 class="section-title animate-on-scroll">Core Expertise</h3>
+                <div class="skills-grid">
+                    <!-- Technical Skills -->
+                    <div class="glass-card skill-card animate-on-scroll tilt-card" data-tilt data-tilt-max="10">
+                        <div class="skill-header">
+                            <div class="skill-icon-wrap"><i class="fas fa-laptop-code"></i></div>
+                            <h4>Technical Skills</h4>
+                        </div>
+                        <ul class="skill-tags">
+                            <li>Python (pandas, numpy, matplotlib, seaborn)</li>
+                            <li>MySQL (joins, subqueries, window fx)</li>
+                            <li>R-Programming</li>
+                            <li>Power BI & Tableau</li>
+                            <li>MS-Excel</li>
+                            <li>SAS</li>
+                        </ul>
+                    </div>
+
+                    <!-- Statistics -->
+                    <div class="glass-card skill-card animate-on-scroll tilt-card" data-tilt data-tilt-max="10">
+                        <div class="skill-header">
+                            <div class="skill-icon-wrap"><i class="fas fa-chart-line"></i></div>
+                            <h4>Statistics</h4>
+                        </div>
+                        <ul class="skill-tags">
+                            <li>Descriptive & Inferential Stats</li>
+                            <li>Hypothesis Testing</li>
+                            <li>Correlation & Regression</li>
+                            <li>Time Series Modelling</li>
+                            <li>Survival Analysis & PCA</li>
+                            <li>Causal Inference</li>
+                        </ul>
+                    </div>
+
+                    <!-- Machine Learning -->
+                    <div class="glass-card skill-card animate-on-scroll tilt-card" data-tilt data-tilt-max="10">
+                        <div class="skill-header">
+                            <div class="skill-icon-wrap"><i class="fas fa-brain"></i></div>
+                            <h4>Machine Learning</h4>
+                        </div>
+                        <ul class="skill-tags">
+                            <li>Linear & Logistic Regression</li>
+                            <li>Decision Trees & Random Forest</li>
+                            <li>SVM & Gradient Boosting</li>
+                            <li>Evaluation (Recall, Precision, F1, ROC-AUC)</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="container">
+                <h3 class="section-title animate-on-scroll">Featured Projects</h3>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="glass-card project-card animate-on-scroll tilt-card" data-tilt data-tilt-max="5">
+                        <div class="project-content">
+                            <span class="project-tag"><i class="fas fa-wave-square"></i> Time Series & Causal
+                                Inference</span>
+                            <h4 class="gradient-text">The Trump's Tariff Effect</h4>
+                            <h5>A Causal Impact Analysis on Gold Prices</h5>
+                            <p class="project-desc">Quantified the impact of U.S. tariff interventions on global gold
+                                prices across India, China, USA, UAE, and Russia.</p>
+                            <div class="project-features">
+                                <div><i class="fas fa-check-circle"></i> ARIMA/SARIMA structural break detection</div>
+                                <div><i class="fas fa-check-circle"></i> Bayesian Structural Time Series</div>
+                                <div><i class="fas fa-check-circle"></i> Neural Network (MLP) Forecasting</div>
+                            </div>
+                            <div class="tech-stack modern-stack">
+                                <span>R</span>
+                                <span>PowerBI</span>
+                                <span>MS-Excel</span>
+                                <span>Neural Networks</span>
+                            </div>
+                            <a href="#" class="btn btn-outline btn-sm">View Details <i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="glass-card project-card animate-on-scroll tilt-card" data-tilt data-tilt-max="5">
+                        <div class="project-content">
+                            <span class="project-tag"><i class="fas fa-project-diagram"></i> Machine Learning
+                                Classification</span>
+                            <h4 class="gradient-text">Customer Churn Prediction</h4>
+                            <h5>Predictive Modeling for Retention</h5>
+                            <p class="project-desc">Analyzed customer behavior to predict churn, optimizing models for
+                                Recall to prevent the loss of high-value customers.</p>
+                            <div class="project-features">
+                                <div><i class="fas fa-check-circle"></i> Extensive EDA & Data Cleaning</div>
+                                <div><i class="fas fa-check-circle"></i> Logistic, Decision Tree, Random Forest</div>
+                                <div><i class="fas fa-check-circle"></i> 18% improvement in recall</div>
+                            </div>
+                            <div class="tech-stack modern-stack">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Scikit-Learn</span>
+                                <span>Seaborn</span>
+                            </div>
+                            <a href="#" class="btn btn-outline btn-sm">View Code <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Section -->
+        <section id="education" class="education section-padding">
+            <div class="container">
+                <h3 class="section-title animate-on-scroll">Education & Progress</h3>
+
+                <div class="edu-flex">
+                    <!-- Academics -->
+                    <div class="edu-column animate-on-scroll">
+                        <div class="timeline">
+                            <div class="timeline-item tilt-card" data-tilt>
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content glass-card">
+                                    <span class="timeline-date">2023 - 2025</span>
+                                    <h4>MSc in Statistics</h4>
+                                    <p>Bangalore University, Bangalore.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item tilt-card" data-tilt>
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content glass-card">
+                                    <span class="timeline-date">2020 - 2023</span>
+                                    <h4>B.Sc. in Statistics, Mathematics, & Physics</h4>
+                                    <p>Basaveshwar Science College, Bagalkot.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications & Extra -->
+                    <div class="edu-column animate-on-scroll">
+                        <div class="glass-card cert-card tilt-card" data-tilt>
+                            <h4 class="cert-title"><i class="fas fa-award"></i> Certifications & Training</h4>
+                            <ul class="cert-list">
+                                <li>
+                                    <strong>Multi-Domain AI Training</strong>
+                                    <span>Avyagraha Research & Analytics LLP (Sep-Oct 2025)</span>
+                                </li>
+                                <li>
+                                    <strong>Mastering MySQL</strong>
+                                    <span>Udemy (Oct 2025)</span>
+                                </li>
+                                <li>
+                                    <strong>Data Analytics Simulation</strong>
+                                    <span>Deloitte Australia (Oct 2025)</span>
+                                </li>
+                                <li>
+                                    <strong>PowerBI Workshop</strong>
+                                    <span>OfficeMaster (2025)</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container animate-on-scroll">
+                <div class="contact-box glass-card tilt-card" data-tilt data-tilt-scale="1.02">
+                    <div class="contact-inner">
+                        <h2>Ready to collaborate?</h2>
+                        <p>I'm always open to discussing data-driven opportunities, data science roles, or any
+                            interesting analytical challenges.</p>
+                        <div class="contact-action-group">
+                            <a href="mailto:myselfzuberinamdar@gmail.com" class="btn btn-primary pulse">Say Hello <i
+                                    class="fas fa-paper-plane"></i></a>
+                            <a href="https://www.linkedin.com/in/mdzuber0303/" class="btn btn-secondary"><i
+                                    class="fab fa-linkedin"></i> Connect</a>
+                        </div>
+                        <div class="contact-footer-info">
+                            <a href="tel:+919019339083"><i class="fas fa-phone-alt"></i> +91 9019339083</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <a href="#" class="logo">Zuber<span>.</span></a>
+            <p>Built with Data, HTML & CSS. © 2026 Md Zuber. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/mdzuber0303/" target="_blank" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:myselfzuberinamdar@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <!-- Vanilla Tilt Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
